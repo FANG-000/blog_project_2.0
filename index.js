@@ -12,6 +12,19 @@ app.get('/', (req, res) => {
     res.render("index.ejs");
 })
 
+app.get('/aboutPage', (req, res) => {
+  res.render("aboutPage.ejs");
+})
+
+app.get('/contactPage', (req, res) => {
+  res.render("contactPage.ejs");
+})
+
+app.get('/errorPage', (req, res) => {
+  res.render("errorPage.ejs");
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
