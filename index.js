@@ -4,9 +4,12 @@ const app = express()
 // set port to 3000
 const port = 3000
 
+//for static files
+app.use(express.static("public"));
+
 // test / endpoint
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+    res.render("index.ejs");
 })
 
 app.listen(port, () => {
