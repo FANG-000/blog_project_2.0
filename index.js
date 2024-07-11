@@ -16,6 +16,10 @@ app.get('/aboutPage', (req, res) => {
   res.render("aboutPage.ejs");
 })
 
+app.get('/createAPostPage', (req, res) => {
+  res.render("createAPostPage.ejs");
+})
+
 app.get('/contactPage', (req, res) => {
   res.render("contactPage.ejs");
 })
