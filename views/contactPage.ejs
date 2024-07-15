@@ -1,5 +1,40 @@
 <%- include('partials/header.ejs') %>
-<main class="container my-5">
-    <h1>contactPage</h1>
+<main class=" container-fluid mt-3 mb-0">
+    <div class="container">
+        <!-- <div class="bd-example m-0 border-0"> -->
+            <form class="row g-3 mt-2" action="" method="post">
+                <div class="row col-lg-12 col-md-6">
+                  <label for="inputEmail4" class="col-form-label ps-1 col-md-5 ">First Name: <span>*</span></label>
+                  <div class="col-md-7">
+                    <input type="" class="form-control" id="" fdprocessedid="" placeholder="John">
+                  </div>
+                </div>
+                <div class="row col-lg-12 col-md-6">
+                    <label for="inputEmail4" class="col-form-label ps-1">Last Name: <span>*</span></label>
+                    <input type="" class="form-control" id="" fdprocessedid="" placeholder="Smith">
+                  </div>
+                <div class="row col-lg-12 col-md-6">
+                  <label for="inputEmail4" class="col-form-label ps-1">Email Address: <span>*</span></label>
+                  <input type="" class="form-control" id="" fdprocessedid="" placeholder="name@example.com">
+                </div>
+                <div class="row col-lg-12 col-md-6">
+                  <label for="inputState" class="col-form-label ps-1">Concern: <span>*</span></label>
+                  <select id="inputState" class="form-select" fdprocessedid="w53z4g">
+                    <option selected="" value="">Select ...</option>
+                    <option selected="" value="">Product: The Edge</option>
+                    <option selected="" value="">Investment Consulting Services</option>
+                  </select>
+                </div>
+                <div class="row col-md-12">
+                    <label for="exampleFormControlTextarea1" class="col-form-label ps-1">Details <span>*</span></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="height: 85px;"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary" fdprocessedid="lsmgz">Sign in</button>
+                </div>
+        </form>
+    </div>
 </main>
 <%- include('partials/footer.ejs') %>
+
+
